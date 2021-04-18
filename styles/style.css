@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'GT Eesti Pro';
+    padding: 15px 0;
+}
+
+.card {
+    display: block;
+    width: 310px;
+    border: 1px solid lightgrey;
+    height: 510px;
+    padding: 15px;
+}
+
+.card img {
+    width: 75%;
+    display: block;
+    margin: 0 auto;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    background-color: #fff;
+    line-height: 0;
+    margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(80, 80, 80);
+}
+
+.price {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.promotion-price {
+    display: inline-flex;
+    font-size: 1.5em;
+    color: rgb(255, 0, 70);
+    font-weight: bold;
+}
+
+.unpromoted {
+    color:rgb(80, 80, 80);
+}
+
+.old-price {
+    display: inline-flex;
+    text-decoration: line-through;
+}
+
+.bestseller {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: orange;
+    margin: 5px 0;
+}
+
+button {
+    display: inline-flex;
+    margin-top: 20px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: blue;
+    color: #fff;
+    border: 0;
+}

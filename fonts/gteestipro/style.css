@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'GT Eesti Pro';
+    src: local('GT Eesti Pro Display Medium'), local('GT-Eesti-Pro-Display-Medium'),
+        url('GTEestiProDisplay-Medium.woff2') format('woff2'),
+        url('GTEestiProDisplay-Medium.woff') format('woff'),
+        url('GTEestiProDisplay-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+  }
